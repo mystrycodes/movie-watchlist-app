@@ -1,1 +1,1 @@
-web: gunicorn "movie_library:create_app()"
+web: gunicorn "movie_library.__init__:create_app()"
